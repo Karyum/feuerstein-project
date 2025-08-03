@@ -30,6 +30,35 @@ The generated reports vary significantly based on multiple criteria including th
 
 *Note: The LPAD system includes many additional features and capabilities that are difficult to demonstrate through static documentation. This overview provides just a glimpse into the comprehensive functionality of the platform.* 
 
+## Technical Implementation
+
+### My Contribution
+I built this comprehensive educational platform from the ground up as a complete system rebuild. The client had an existing legacy system, but I was tasked with creating a modern, scalable solution due to significant technical debt and maintainability issues in the previous implementation.
+
+### Technology Stack
+
+**Frontend Development:**
+- **React/Next.js** - Modern React framework for server-side rendering and optimal performance
+- **TypeScript** - Type-safe development ensuring code reliability and maintainability  
+- **Ant Design** - UI component library for consistent design patterns
+- **SASS** - Advanced CSS preprocessing for scalable styling architecture
+- **Socket.IO** - Real-time bidirectional communication for live teacher-student interactions
+
+**Backend Development:**
+- **Node.js/Express.js** - Scalable server-side JavaScript runtime and web framework
+- **TypeScript** - Full-stack type safety and enhanced development experience
+- **SQL Database** - Structured data storage for user management, assessments, and results
+- **MongoDB** - NoSQL database for flexible document storage and real-time data
+- **Puppeteer** - Automated PDF report generation with custom formatting
+- **AWS SDK** - Cloud service integration for scalable infrastructure management
+
+**Infrastructure & DevOps:**
+- **AWS Cloud Platform** - Comprehensive cloud infrastructure with auto-scaling capabilities
+- **Vercel** - Optimized Next.js deployment with global CDN distribution
+- **AWS Elastic Beanstalk** - Application deployment and management service
+- **AWS CodePipeline** - Automated CI/CD pipeline for seamless deployments
+- **Staging Environment** - Dedicated testing environment on AWS for quality assurance
+
 
 
 # Feuerstein Instrumental Enrichment (FIE)
@@ -40,10 +69,29 @@ Feuerstein Instrumental Enrichment (FIE) is a cognitive intervention program tha
 
 The program consists of an extensive collection of worksheets, each bundled into modules designed for specific cognitive development purposes. The materials are adaptable for a wide age range (10-70 years old) and target various cognitive skills - some worksheets focus on enhancing memory, others assess logical reasoning abilities, and many more address different aspects of cognitive function. 
 
-> Pages are changing in the GIFs because there is a second window where the teacher is controlling the currently viewew worksheet
+> Pages are changing in the GIFs because there is a second window where the teacher is controlling the currently viewed worksheet
 
 ![Points org](assets/points-org.gif)
 ![Analytical Perception](assets/ap.gif)
 
 
 The system currently contains approximately 80 worksheets, with functionality to assign homework to students. Teachers can provide real-time intervention through the platform itself, offering guidance to help students answer questions or better understand the worksheet content.
+
+## Technical Implementation
+
+### My Contribution & Team Leadership
+The FIE platform was developed as a collaborative effort where I led a team of two developers, working closely with a junior developer who was an alumnus from a coding bootcamp I was facilitating ([Check my LinkedIn for further details](https://www.linkedin.com/in/mario-s-853802aa/)).
+
+**Project Architecture & Setup:**
+The FIE system utilized the same technology stack and infrastructure as the LPAD platform, ensuring consistency and maintainability across both applications.
+
+As the senior developer, I took responsibility for:
+
+- **Code Quality & Standards:** Established and enforced industry-standard coding practices
+- **Git Workflow Management:** Implemented Git workflows with feature branches, pull request reviews
+- **Architecture Guidance:** Designed scalable component structures and database schemas while teaching clean architecture principles
+- **Security Implementation:** Ensured proper authentication, authorization, and data validation practices throughout the application
+
+**Collaborative Development Process:**
+- **Code Reviews:** Conducted thorough code reviews to maintain quality while providing learning opportunities
+- **Pair Programming Sessions:** Regular collaborative coding sessions to tackle complex features and share knowledge
